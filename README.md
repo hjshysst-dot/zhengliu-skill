@@ -23,6 +23,31 @@
 
 ---
 
+## 🚀 安装使用
+
+### 方式一：OpenClaw
+```bash
+# 将 skill 放入 OpenClaw skills 目录
+cp -r pangshu-zhengliu-skill ~/.openclaw/workspace/skills/
+```
+
+### 方式二：作为参考
+```bash
+# 克隆仓库
+git clone https://github.com/YOUR_USERNAME/pangshu-zhengliu-skill.git
+
+# 查看 SKILL.md 了解完整用法
+cat SKILL.md
+```
+
+### 方式三：Claude Code
+```bash
+# 手动复制到 agents 目录
+cp *.md ~/.claude/agents/
+```
+
+---
+
 ## ✨ 核心改进（解决 8 个弊端）
 
 | # | 原版 Cangjie 问题 | pangshu-zhengliu 解决方案 |
